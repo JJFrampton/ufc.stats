@@ -1,7 +1,47 @@
 
-<!-- README.md is generated from README.Rmd. Please edit that file -->
-
 # ufc.stats
+
+## Data Source Used
+
+https://s3-us-west-1.amazonaws.com/ufc.stats/final/ufc_stats.rda
+
+## Usage in Python
+
+Can download data from link above, unzip, and read with python
+
+# read an R object into dictionary type struct with values as pandas dataframes
+import pyreadr
+
+data = pyreadr.read_r(file_location)
+print(data.keys())
+stats = data["ufc_stats"]
+stats.head()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Old Notes
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
 
 This package contains UFC fight statistics, continously updated with
 data from latest events.
