@@ -1,5 +1,5 @@
 
-# ufc.stats
+# UFC Statistics
 
 ## Data Source Used
 
@@ -9,35 +9,24 @@ https://s3-us-west-1.amazonaws.com/ufc.stats/final/ufc_stats.rda
 
 Can download data from link above, unzip, and read with python
 
-# read an R object into dictionary type struct with values as pandas dataframes
+```
+# Read an R object into dictionary type struct with values as pandas dataframes
 import pyreadr
 
 data = pyreadr.read_r(file_location)
 print(data.keys())
 stats = data["ufc_stats"]
 stats.head()
+```
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 
 # Old Notes
 
